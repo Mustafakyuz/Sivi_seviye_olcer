@@ -27,7 +27,7 @@ void menuItem1() { // Function executes when you select the 1st item from main m
         lcd.print("     ");
         lcd.setCursor(10,0);        
         lcd.print(savedDistance);
-        lcd.print(" in");
+        lcd.print(" i");
         break;
       case 3:
         button = 0;
