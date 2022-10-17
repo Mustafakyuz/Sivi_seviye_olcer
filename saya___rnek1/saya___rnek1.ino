@@ -91,7 +91,7 @@ void loop() {
        lcd.print("%");
        lcd.setCursor(8,1);
        lcd.print(doluluk); 
-   durum_hesapla = digitalRead(hesapla);   
+       durum_hesapla = digitalRead(hesapla);   
    }                                                                // Doluluk oranını LCD ye yazdırma
   
 }
